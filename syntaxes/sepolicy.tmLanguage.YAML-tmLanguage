@@ -42,15 +42,15 @@ repository:
     patterns:
       - match: (;)
         name: punctuation.terminator.sepolicy
-      - match: (==|!=|&&|\|\||!|^)
+      - match: (==|!=|&&|\|\||!|\^)
         name: keyword.operator.sepolicy
       - match: ([,:])
         name: punctuation.separator.sepolicy
       - match: ([.~*-])
         name: punctuation.sepolicy
-      - match: ({)
+      - match: (\{)
         name: punctuation.section.braces.begin.sepolicy
-      - match: (})
+      - match: (\})
         name: punctuation.section.braces.end.sepolicy
       - match: (\()
         name: punctuation.section.parens.begin.sepolicy

@@ -26,10 +26,6 @@
         },
         {
           "include": "#punctuation"
-        },
-        {
-          "match": "(.*)",
-          "name": "source.sepolicy"
         }
       ]
     },
@@ -61,7 +57,7 @@
           "name": "punctuation.terminator.sepolicy"
         },
         {
-          "match": "(==|!=|&&|\\|\\||!|^)",
+          "match": "(==|!=|&&|\\|\\||!|\\^)",
           "name": "keyword.operator.sepolicy"
         },
         {
@@ -73,11 +69,11 @@
           "name": "punctuation.sepolicy"
         },
         {
-          "match": "({)",
+          "match": "(\\{)",
           "name": "punctuation.section.braces.begin.sepolicy"
         },
         {
-          "match": "(})",
+          "match": "(\\})",
           "name": "punctuation.section.braces.end.sepolicy"
         },
         {
