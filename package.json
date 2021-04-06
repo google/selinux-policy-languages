@@ -1,0 +1,48 @@
+{
+    "name": "selinux-policy-languages",
+    "displayName": "SELinux Policy",
+    "description": "Syntax highlighting for the SELinux Kernel Policy Language and Common Intermediate Language.",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "keywords": [
+        "Android",
+        "SELinux",
+        "CIL"
+    ],
+    "publisher": "Google",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/google/selinux-policy-languages.git"
+    },
+    "license": "Apache-2.0",
+    "contributes": {
+        "languages": [
+            {
+                "id": "sepolicy",
+                "aliases": [
+                    "SELinux policy",
+                    "sepolicy"
+                ],
+                "extensions": [
+                    ".te"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "sepolicy",
+                "scopeName": "source.sepolicy",
+                "path": "./syntaxes/sepolicy.tmLanguage.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "js-yaml": "^3.14.1"
+    }
+}
