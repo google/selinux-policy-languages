@@ -31,7 +31,7 @@
                 "extensions": [
                     ".te"
                 ],
-                "configuration": "./language-configuration.json"
+                "configuration": "./sepolicy.language-configuration.json"
             }
         ],
         "grammars": [
