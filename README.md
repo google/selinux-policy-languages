@@ -8,7 +8,8 @@ This is not an officially supported Google product.
 
 ### 0.1.0
 
-Initial release, TextMate grammar for SELinux kernel policy language syntax highlighting.
+Initial release, TextMate grammars for SELinux kernel policy language and Common Intermediate
+Language syntax highlighting.
 
 ## Contributing
 
