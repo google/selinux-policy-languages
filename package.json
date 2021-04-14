@@ -23,6 +23,18 @@
     "contributes": {
         "languages": [
             {
+                "id": "cil",
+                "aliases": [
+                    "SELinux Common Intermediate Language",
+                    "Common Intermediate Language",
+                    "CIL"
+                ],
+                "extensions": [
+                    ".cil"
+                ],
+                "configuration": "./cil.language-configuration.json"
+            },
+            {
                 "id": "sepolicy",
                 "aliases": [
                     "SELinux policy",
@@ -35,6 +47,11 @@
             }
         ],
         "grammars": [
+            {
+                "language": "cil",
+                "scopeName": "source.cil",
+                "path": "./syntaxes/cil.tmLanguage.json"
+            },
             {
                 "language": "sepolicy",
                 "scopeName": "source.sepolicy",
